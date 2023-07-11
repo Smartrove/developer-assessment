@@ -1,0 +1,159 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1220px;
+}
+
+.logo{
+    color: #ffffff;
+    font-family: Montserrat;
+    font-weight: 500;
+    /* margin: 70px 0 0 40px; */
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    margin-top: 50px;
+}
+
+.introduction{
+    color: #fff;
+    font-weight: 500;
+    font-size: 40px;
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+}
+
+.team-member{
+    color: #fff;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.form{
+    max-width: 400px;
+    width: 100%;
+    height: 600px;
+    background-color: #fff;
+    border-radius: 15px;
+}
+
+.login-header{
+    text-align: center;
+    font-weight: 600;
+}
+
+.google{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 10px;
+    color: #6C6CF5;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 10px 15px;
+    cursor: pointer;
+
+}
+
+.google-button{
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+
+}
+
+.google-text{
+    background-color: #fff;
+    color: #6C6CF5;
+}
+
+.hr {
+    width: 100%; 
+    text-align: center; 
+    border-bottom: 1px solid lightgray; 
+    line-height: 0.1em;
+    margin: 10px 0 20px; 
+ } 
+ 
+ .hr span { 
+     background:#fff; 
+     padding:0 10px; 
+ }
+
+ .email-login{
+    text-align: center;
+ }
+
+ .formControl{
+    
+    width: 100%;
+ }
+
+ .forgot{
+    float: right;
+    padding-right: 10px;
+ }
+
+ .forgot a{
+    text-decoration: none;
+
+ }
+
+ .submitButton{
+    display: block;
+    width: 90%;
+    padding: 15px 20px;
+    cursor: pointer;
+    margin-left: 20px;
+    border-radius: 10px;
+    background: #6d6ddc;
+    border: 1px solid #6d6ddc;
+    color: #fff;
+    font-weight: 500;
+    font-size: 14px;
+ }
+
+ .signUp{
+    text-align: center;
+ }
+
+ .signUp a{
+    text-decoration: none;
+ }
+
+ .arrow{
+    margin-top: 3px;
+ }
+
+ .learnMore{
+    display: flex;
+    justify-content: flex-start;
+ }
+
+ .learnMoreButton{
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    font-weight: 500;
+    font-size: 20px;
+    cursor: pointer;
+ }
+
+ .learnMoreButton a{
+    color: #fff;
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration: none;
+ }
